@@ -1,0 +1,293 @@
+/* navbar  */
+@media only screen and (max-width: 1024px){
+body{
+        overflow-x: hidden;
+    }
+#click:checked ~ #hamburger i::before{
+    content: "\f00d";
+}
+.navbar .lower-nav ul{
+    position: fixed;
+    top: 150px;
+    left: -100%;
+    height: 60vh;
+    width: 50%;
+    display: block;
+    text-align: c;
+    background: #3d2514;
+    transition: all 0.3s ease-in;
+    color: white;
+    z-index: 99;
+    /* position: absolute;
+    right: 0;
+    top: 130px;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 50vw;
+    color: white;
+    transform: translateX(100%);
+    transition: 0.3s ease-in; */
+}
+.navbar .lower-nav ul li{
+    margin: 40px 0;
+}
+.navbar .lower-nav ul li a{
+    color: white;
+}
+.navbar .lower-nav .hamburger{
+    display: block;
+    font-size: 2rem;
+    cursor: pointer;
+}
+#click:checked ~ ul{
+    left: 0%;
+}
+}
+/* navbar ends */
+
+/* banner  */
+@media only screen and (max-width: 1024px){
+    .banner{
+        justify-content: space-between;
+    }
+    .banner .banner-info p{
+        font-size: 0.7rem;
+        padding: 0.5rem 0.5rem;
+    }
+    .banner .banner-info h1{
+        font-size: 75px;
+    }
+    .banner .banner-info h2{
+        font-size: 65px;
+    }
+    .banner .banner-img{
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .banner .banner-info h1{
+        font-size: 45px;
+    }
+    .banner .banner-info h2{
+        font-size: 35px;
+    }
+    .banner .banner-img{
+        width: 50%;
+        height: 50%;
+    }
+}
+@media only screen and (max-width: 580px){
+    .lower-nav .logo img{
+        width: 70%;
+    }
+    .banner .banner-info p{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .banner .banner-info h1{
+        text-align: center;
+        font-size: 60px;
+    }
+    .banner .banner-info h2{
+        text-align: center;
+        font-size: 50px;
+    }
+    .banner .banner-img{
+        width: 100%;
+        height: 100%;
+    }
+    .banner .banner-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .navbar .upper-nav {
+        justify-content: center;
+    }
+}
+/* banner ends */
+
+
+/* burger section  */
+@media only screen and (max-width: 580px){
+    .burger-section .left-burger {
+        width: 100vw;
+        margin-bottom: 20px;
+    }
+    .burger-section .right-burger{
+        width: 100vw;
+    }
+}
+/* burger  section ends  */
+
+
+/* burger section  */
+@media only screen and (max-width: 580px){
+.menu-section .menu-headings h2{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+.menu-section .menu-headings h1{
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .menu-section .menu-headings h1{
+        font-size: 18px;
+    }
+}
+/* burger section ends here */
+
+
+/* order section  */
+@media only screen and (max-width: 580px){
+.order-section .order-1 img{
+    width: 80%;
+}
+.order-section .order-1 h1{
+    font-size: 34px;
+}
+.order-section .order-2 img{
+    width: 80%;
+}
+.order-section .order-2 h1{
+    font-size: 34px;
+}
+.order-section .order-3 img{
+    width: 80%;
+}
+.order-section .order-3 h1{
+    font-size: 34px;
+}
+}
+/* order section ends here  */
+
+
+/* event section  */
+@media only screen and (max-width: 768px){
+    .event-section .event-content .text h1{
+        font-size: 34px;
+    }
+    .event-section .event-content .text p{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 580px){
+    .event-section .event-content .text{
+        width: 100vw;
+    }
+    .event-section .event-content .img{
+        width: 100vw;
+    }
+}
+/* event section ends here */
+
+/* book section  */
+@media only screen and (max-width: 1024px){
+    .book-section .book-2 .form #name{
+        width: 100%;
+    }
+    .book-section .book-2 .form #email{
+        width: 100%;
+    }
+    .book-section .book-2 .form #date{
+        width: 100%;
+    }
+    .book-section .book-2 .form #people{
+        width: 100%;
+    }
+    .book-section .book-2 .form #btn{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .book-section .book-2 .form{
+        margin-top: 0;
+    }
+}
+@media only screen and (max-width: 768px){
+    .book-section .heading h1{
+        font-size: 34px;
+    }
+    .book-section .book-2 .form{
+        margin-top: 0;
+    }
+}
+@media only screen and (max-width: 580px){
+    .book-section .booking1 img{
+        display: none;
+    }
+    .book-section .book-2 .booking2 img{
+        display: none;
+    }
+    /* .book-section .booking1{
+        height: 30px;
+    } */
+    .book-section .heading {
+        left: 0;
+    }
+    .book-section .book-2 .form{
+        padding: 0;
+        width: 80%;
+    }
+    .book-section .heading h1{
+        width: 100%;
+    }
+}
+/* book section ends here */
+
+
+/* contact us section  */
+@media only screen and (max-width: 1024px){
+    .contact .contact1 .text{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .contact .contact1 .text{
+        font-size: 10px;
+    }
+    .contact .contact1 .address p{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 580px){
+    .contact{
+        margin-top: 150px;
+    }
+    .contact .logo img{
+        width: 100%;
+    }
+    .contact .contact1 .text{
+        font-size: 14px;
+    }
+    .contact .contact2{
+        margin-top: 30px;
+    }
+    .contact .contact1 .address{
+        margin-top: 50px;
+    }
+    .contact .contact1 .address p{
+        font-size: 18px;
+    }
+    .contact .contact1 .address #add2{
+        margin-top: 0;
+    }
+    .contact .contact2 .socials{
+        order: -1;
+        margin-bottom: 30px;
+    }
+    .contact .contact2 .socials i{
+        font-size: 25px;
+    }
+    .contact .contact2 .right p{
+        text-align: center;
+    }
+    .contact .contact2 {
+        justify-content: space-around;
+    }
+}
+/* contact us section ends here */
